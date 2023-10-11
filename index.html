@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style css">
+    <title>My CV</title>
+    <style>
+        body {
+            background-color: #e9e9e9;
+            color: #2529;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        }
+
+        * {
+            box-sizing: border-box;
+            /* row-gap: 30px; */
+        }
+        .left {
+            width: 100%;
+            height: 1150px;
+            float: left;
+        }
+
+        .right  {
+            width: 100%;
+            height: 1100px;
+            float: right;
+            line-height: 1.5;  
+        }
+        .footer {
+            width: 100%;
+            height: 100px;
+            border-style: none;
+            outline-style: none;
+            content: "";
+            display: table;
+            clear: both;
+            box-sizing: inherit;
+            background-color: #2529;
+            margin-top: 8px;
+            padding: 0 15px 16px;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        @media (min-width: 601px) {
+            .left {
+                width: 27%;
+                box-shadow: 0 5px 50px #858585;
+                background-color: white;
+                border-radius: 7px;
+        }
+            
+            .right {
+                width: 70%;
+                box-shadow: 0 5px 50px #858585;
+                background-color: white;
+                position: relative;
+                padding: 30px;
+                border-radius: 7px;
+            }
+        }
+        .name {
+            padding: 3px 15px;
+            position: relative;
+        }
+        .name h1{
+            font-weight: 300;
+            font-size: xxx-large;
+            /* margin: 0 0 8; */
+            color: rgba(38, 130, 38, 0.813);
+        }
+        .name .specialize h3 {
+            margin: 0 0 8;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+        .skill {
+            padding: 0;
+            list-style: none;
+            line-height: 1.5;
+            
+        }
+        .language {
+            list-style: none;
+        }
+        .percent {
+            color: #fff;
+            background-color: #2529;
+            border-radius: 16px;
+            text-align: center;
+        }
+        .introduce h2{
+            font-size: x-large;
+        }
+        .experience h1{
+            font-size: x-large;
+        }
+        .education h1 {
+            font-size: x-large;
+        }
+        .li {
+            display: block;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="left">
+            <div class="container">
+                <img src="/img/844edb418d5b5905004a.jpg" height="300px" width="100%" alt="avatar">
+            </div>
+            <div class="name">
+                <h1>Hoa Ngọc Lan</h1>
+            <div class="specialize">
+                <h3>Nhà Quản trị</h3>
+            </div>
+                <ul class="contact">
+                    <p>
+                        <i class="fa-solid fa-mobile-screen-button" style="color: #2529;"></i>
+                           0961145826
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope" style="color: #2529;"></i>
+                        hoangoclan19@gmail.com
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-briefcase" style="color: #2529;"></i>
+                        Đại Học Mỏ - Địa Chất
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-location-dot" style="color: #2529;"></i>
+                        Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội
+                    </p>
+                </ul>
+                <div class="skill">
+                    <h2><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal" style="color: #2529;"></i>
+                        Skill</h2>
+                    <li>Adobe Photoshop
+                        <div class="percent" style="width:50%">
+                            50%
+                        </div>
+                    </li>
+                    <li>Photography
+                        <div class="percent" style="width: 80%;">
+                            80%
+                        </div>
+                    </li>
+                    <li>Communication Skill
+                        <div class="percent" style="width: 50%;">
+                            50%
+                        </div>
+                    </li>
+                    <li>Dễ dàng thích nghi với môi trường mới
+                        <div class="percent" style="width: 50%;">
+                            50%
+                        </div>
+                    </li>
+                    <li>Design
+                        <div class="percent" style="width: 67%;">
+                            67%
+                        </div>
+                    </li>
+                    <li>Creative
+                        <div class="percent" style="width: 60%;">
+                            60%
+                        </div>
+                    </li>
+            
+                </div>
+                <div class="language">
+                    <h2><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal" style="color: #2529;"></i>
+                        Language</h2>
+                    <li>Tiếng Việt</li>
+                    <li>Tiếng Anh</li>
+                    <li>Tiếng Hàn</li>
+                </div>
+                
+            </div>
+        </div>
+        <div class="right">
+            <div class="introduce">
+                <h2> <i class="fa-solid fa-person-dress-burst"></i>
+                    Introduce</h2>
+              <p>Xin chào nhà tuyển dụng, Lan là một người luôn tuân thủ quy tắc nhưng lại không cứng ngắc mà lại sáng tạo. Lan được trang bị những kỹ năng và kiến thức cần thiết về ngành quản trị. Qua việc tham gia các bài thuyết trình và dự án, Lan đã phát triển kĩ năng giao tiếp, làm việc nhóm và giải quyết vấn đề. Những kỹ năng này đã giúp rất nhiều trong cuộc sống hằng ngày và sự nghiệp tương lai của Lan.</p> 
+            </div>
+            <div class="experience">
+                <h2> <i class="fa-solid fa-briefcase"></i>
+                    Experience</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, voluptates alias voluptatum eveniet aliquid culpa eius? Corrupti dolorum nihil optio, perferendis repellendus odit, consequatur fugit cumque molestias incidunt, labore recusandae.</p>
+            </div>
+            <div class= "education">
+                <h2> <i class="fa-solid fa-school"></i>
+                    Education</h2>
+                <div class="container">
+                    <h3>Trường Đại học Mỏ - Địa Chất</h3>
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2021-now
+                    <p>Ngành Quản trị Thương mại điện tử</p>
+                    <h3>THPT Thượng Cát</h3>
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2017-2020
+                    <p>Tốt nghiệp loại Giỏi</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer" style="color: #fff;">
+        <p>Find me on social media</p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-twitter"></i>
+
+    </div>
+</body>
+</html>
